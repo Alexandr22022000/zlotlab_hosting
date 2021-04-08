@@ -2,15 +2,15 @@
 
 1) Install dependencies
     ```
-    yarn
+    npm i
     ```
 2) Create folder for your site in `sites`
     ```
-    mkdir my_site
+    mkdir sites/my_site
     ```
 3) Copy your site files into new folder
     ```
-    cp PATH_TO_MY_SITE/index.html sites/my_site/index.html
+    cp -R PATH_TO_MY_SITE sites/my_site
     ```
 4) Create your `manifest.json` from `manifest.json.example`
     ```
